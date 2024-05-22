@@ -1,0 +1,8 @@
+CLS - Cumulative Layout Shift
+LCP - Largest Contentful Paint
+FCP - First Contentful Paint
+
+* What is SEO's (Search engin optimization) 
+* page content is most important for page ranking
+  
+
