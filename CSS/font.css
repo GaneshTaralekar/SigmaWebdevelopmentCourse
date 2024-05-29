@@ -1,0 +1,12 @@
+p{
+    /* font-family: "Noto Serif Vithkuqi", serif; */
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    line-height: 1.5;
+    
+}
