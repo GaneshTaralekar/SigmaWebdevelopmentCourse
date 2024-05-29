@@ -1,0 +1,33 @@
+*{
+    background-color: brown;
+}.container1{
+    background-color: aqua;
+}
+
+.container1 h1{
+    color: red;
+}
+/* .container1>h1{
+    color: red;
+} */
+#name{
+    background-color: brown;
+}
+h1{
+    background-color: cadetblue;
+}
+a:visited{
+    background-color: rgb(255, 245, 240);
+}
+a:active{
+    background-color: yellow;
+}
+/* a:hover{
+    background-color: white;
+} */
+/* a:disabled{
+    background-color: aqua;
+} */
+div:first-child{
+background-color: blue;
+}
