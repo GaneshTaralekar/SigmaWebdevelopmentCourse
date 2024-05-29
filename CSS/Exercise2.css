@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    color: white;
+}
+div p:first-child{
+    background-color: yellow;
+    color: red;
+}
