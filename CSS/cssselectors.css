@@ -17,10 +17,10 @@ h1{
     background-color: cadetblue;
 }
 a:visited{
-    background-color: rgb(255, 245, 240);
+    background-color: rgb(29, 235, 22);
 }
 a:active{
-    background-color: yellow;
+    background-color: rgb(28, 62, 198);
 }
 /* a:hover{
     background-color: white;
