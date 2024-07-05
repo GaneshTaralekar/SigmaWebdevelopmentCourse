@@ -1,0 +1,26 @@
+
+.container1 .container4 p{
+    background-color: rgb(156, 157, 218);
+    
+}
+[data-x="a"]{
+    background-color: brown;
+}
+.con1{
+    background-color: cadetblue;
+}
+.container1{
+    background-color: aqua;
+}
+.con2{
+    background-color: aquamarine;
+}
+h1.heading1{
+    background-color: blue;
+}
+.heading2{
+    background-color: rgb(246, 112, 23);
+}
+.container3 [data-x="a"]:hover{
+    color: chartreuse;
+}
