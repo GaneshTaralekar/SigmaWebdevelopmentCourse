@@ -1,0 +1,54 @@
+body{
+
+   display: flex;
+   justify-content: center;
+   background-color: black;
+}
+.box{
+    display: flex;
+    height: 500px;
+    width: 300px;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(10, 193, 132);
+    margin-top: 125px;
+    padding: 7px;
+
+}
+
+img{
+    width: 300px;
+    border-radius: 15px;
+}
+.buttons{
+    display: flex;
+    
+    
+
+    
+}
+.buttons button{
+    margin: 10px;
+    padding: 3px;
+    border-radius: 12px;
+    width:60px;
+    background-color: rgb(250, 230, 78);
+}
+.box2 .readmore{
+    display: flex;
+    justify-content: center;
+}
+.box .readmore button{
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 8px;
+    color: blue;
+    width: 100px;
+    background-color: rgb(250, 230, 78);
+
+}
+.box2{
+    background-color: rgb(65, 199, 155);
+
+}
