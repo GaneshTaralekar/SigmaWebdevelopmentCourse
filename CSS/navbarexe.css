@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+
+
+
+}
+.container nav ul li a img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+}
+.container nav ul li:first-child{
+    margin-right: 500px;
+   
+    
+}
+.container nav ul li{
+    display: flex;
+    list-style: none;
+    margin: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+
+    /* display: flex;
+    justify-content: space-evenly; */
+
+
+}

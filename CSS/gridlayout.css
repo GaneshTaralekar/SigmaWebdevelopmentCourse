@@ -1,0 +1,17 @@
+.box{
+    display: grid;
+    grid-template-columns: 100px 200px 100px;
+    /* grid-template-columns: 120px 100px; */
+    background-color: blue;
+    grid-template-rows: 100px[pehala] 100px [dusara];
+}
+.item{
+    background-color: aquamarine;
+    border: 2px solid red;
+    
+}
+.item4{
+/* grid-row: dusara/3; */
+grid-row-start: dusara;
+grid-row-end: 3;
+}

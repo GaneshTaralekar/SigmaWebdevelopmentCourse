@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.conatiner{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background-color: blue;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100vw;
+background-color: white;
+height: 98px;
+
+}
+.box2 ul li{
+    list-style:none ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    
+ 
+   
+  
+}
+
+.box1 img{
+    width: 170px;
+}
+.box2 ul{
+    display: flex;
+    gap: 25px;
+    /* gap: 25px; */
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    
+
+}
+.box2 ul li{
+    display: flex;
+    gap: 1px;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    
+
+}
+.box2{
+    display: flex;
+    /* background-color: red; */
+    align-items:center; 
+}
+.gridbox1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  
+}
+.gridbox2{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    /* background-color: aqua; */
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    border: 3px solid black;
+    /* color: white; */
+
+   
+}
+.gridbox2 img{
+  
+    background-position: center;
+
+}
+.gridbox2 p{
+
+    text-align: center;
+   
+}
+.gridcontainer{
+    display: grid;
+    padding: 15px;
+    justify-items: center;
+    align-items: center; 
+     align-content: center;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+@media screen and (max-width:900px){
+    .gridcontainer{
+   
+      grid-template-columns: 1fr;
+      
+
+    }
+    
+}
+
+/* @media screen and (max-width:700px){
+    .conatiner{
+        display: flex;
+        align-items: center;
+        background-color: aqua;
+    }
+    
+} */
+.gridbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    align-items: center;
+
+
+}

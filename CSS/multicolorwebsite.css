@@ -1,0 +1,43 @@
+/* :root{
+    --color1:red;
+    --width1:75px;
+    --color2:orange;
+} */
+:root{
+    --width1:80px;
+    --color1:green;
+    --color2:rgb(106, 247, 6);
+
+}
+body{
+
+}
+.nav{
+display: flex;
+background-color: var(--color1);
+justify-content: center;
+
+
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: center;
+    
+}
+
+.nav ul li {
+    
+    margin-left:200px;
+    list-style: none;
+    background-color: var(--color2);
+    padding: 5px;
+    width: 70px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+
+
+}

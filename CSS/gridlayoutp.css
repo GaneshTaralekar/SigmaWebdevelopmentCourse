@@ -1,0 +1,33 @@
+.box{
+    /* width: 400px;
+    height: 400px;  */
+    display: grid;
+    grid-template-areas: "nav nav nav "
+                         "content mainf"
+                         "footer footer footer";
+
+}
+.item{
+    height: 55px;
+    background-color: aqua;
+    border: 2px solid black;
+
+}
+.item-1{
+    grid-area: nav;
+    background-color: blueviolet;
+  
+}
+.item-2{
+    grid-area: content;
+    background-color: black;
+}
+
+.item-3{
+    grid-area: mainf;
+    background-color: brown;
+}
+.item{
+    border: 5px solid red;
+
+}
