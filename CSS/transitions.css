@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.container{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+
+}
+.box{
+    background-color: red;
+    height: 3vh;
+    width:6vw ;
+    transform: translateX(10vw) translateY(10vh) rotateY(700deg) scaleY(3) scaleY(8.6);
+    transition-property:all;
+    transition-duration: 3s;
+    transition-timing-function:cubic-bezier(0, 0.26, 1, 0.36);
+    background-color: black;
+    
+
+    
+   
+
+
+}

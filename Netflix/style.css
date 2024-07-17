@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: black;
+}
+.maincontainer{
+    /* background-color: aqua; */
+    background-image:url("/Netflix/img/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_large.jpg") ;
+    background-position: center center;
+    height: 90vh;
+    background-size: max(1200px, 100vw);
+    
+}
+.box{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+
+}
+#logo1{
+    position: relative;
+    top: 0;
+    z-index: 10;
+    width: 160px;
+}
+.buttonsl span button{
+    position: relative;
+    z-index: 10;
+    color: white;
+
+}
+nav{
+    position: relative;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    height: 90px;
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    
+    
+
+}
+#button12{
+    width: 200px;
+    height: 30px;
+    opacity: 0.9;
+    background-color: black;
+    font-size: 16px;
+    border: 0.5px solid rgb(253, 248, 248);
+    cursor: pointer;
+    width: 120px;
+    font-weight: bolder;
+    
+}
+.buttonsl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#button13{
+    width: 70px;
+    height: 30px;
+    opacity: 0.9;
+    background-color: rgb(254, 7, 7);
+    font-size: 16px;
+    border: 1px solid rgb(242, 7, 7);
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.contentbox{
+    color: white;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100% - 100px);
+    gap: 23px;
+    padding: 0 30px;
+    line-height: 40px;
+
+    
+}
+#line1{
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    
+}
+#line2{
+    font-family: "Martel Sans", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    
+}
+
+#line3{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.sepration{
+    position: relative;
+    background-color: rgb(48, 47, 47);
+    z-index: 15;
+    height: 10px;
+  
+
+}
+#email{
+width: 350px;
+height: 30px;
+background-color: black;
+opacity: 0.5;
+border: 1px solid rgb(198, 192, 192);
+padding: 10px;
+font-weight: 500;
+color: white;
+z-index: 15;
+font-size: 15px;
+
+}
+#getst{
+    width: 190px;
+    height: 53px;
+    background-color: black;
+    opacity: 0.9;
+    border: 1px solid rgb(198, 192, 192,1);
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+    z-index: 15;  
+    font-size: 25px;
+    background-color: red;
+    cursor: pointer;
+}
+.inputcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+section{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.content1{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+::placeholder{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    z-index: 10;
+    font-size: 16px;
+}
+.content1 .para1{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+}
+.content1 .para2{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    
+}
+.content2{
+position: relative;
+bottom: 30px;
+
+    
+}
+.content2 image{
+    position: relative;
+    width: 550px;
+}
+.content2 video {
+    position: absolute;
+    top: 51px;
+    width: 555px;
+    right: 0;
+    z-index: -20;
+}
+.faqcontainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 80vw;
+margin: auto;
+margin-top: 45px;
+
+}
+.heading1{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 25px;
+}
+.questions1{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;  
+    display: flex;
+    background-color: rgb(58, 56, 55);
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    
+}
+.questions1 :nth-child(2){
+    margin-left: 1000px;
+}
+
+.footermain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-top: 35px;
+
+}
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.divbuttons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+.sepration1{
+    margin-top: 40px;
+}
+.footermain{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+    
+}
+.footer-items{
+    margin: 10px;
+}
