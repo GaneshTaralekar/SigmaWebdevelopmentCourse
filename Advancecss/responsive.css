@@ -1,0 +1,21 @@
+.container nav{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .logo{
+
+    font-size: 2vw;
+
+}
+.items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 1vw;
+    align-items: center;
+    justify-content: center;
+
+}
